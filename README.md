@@ -7,3 +7,9 @@ See them in action at: <a href="https://www.instagram.com/puggle.ai/">@puggle.ai
 - <b>Frozen Lake</b> ❄️: navigate a slippery frozen lake and reach the goal without falling in the ice <i>(to be added soon)</i>
 - <b>Cartpole</b> ⚖️: keep a cartpole balanced upright <i>(to be added soon)</i>
 - <b>Mountain car</b> 🚂: use momentum to drive a car up a hill <i>(to be added soon)</i>
+
+### Dependencies:
+```
+pip install gym
+pip install numpy
+```
