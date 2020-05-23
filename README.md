@@ -1,2 +1,2 @@
 # Game-playing bots 🦾🤖
-A series of game-playing bots from OpenAI Gym (https://gym.openai.com/envs).
+A series of game-playing bots from OpenAI Gym (https://gym.openai.com/envs) using reinforcement learning techniques.
