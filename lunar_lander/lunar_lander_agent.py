@@ -148,6 +148,8 @@ for episode in range(10):
 
 		new_state, reward, done, info = env.step(action)
 
+		state = new_state
+
 		if done:
 			break
 
