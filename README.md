@@ -1,15 +1,16 @@
 # Game-playing bots 🦾🤖
 A series of game-playing bots from OpenAI Gym (https://gym.openai.com/envs) using reinforcement learning techniques. <br>
-See them in action at: <a href="https://www.instagram.com/puggle.ai/">@puggle.ai</a>
+See them in action at: [@puggle.ai](https://www.instagram.com/puggle.ai)
 
 ### Current games:
-- <b>Taxi</b> 🚕: pick up and drop off passengers as quickly as possible
-- <b>Frozen Lake</b> ❄️: navigate a slippery frozen lake and reach the goal without falling in the ice <i>(to be added soon)</i>
-- <b>Cartpole</b> ⚖️: keep a cartpole balanced upright <i>(to be added soon)</i>
-- <b>Mountain car</b> 🚂: use momentum to drive a car up a hill <i>(to be added soon)</i>
+- **Taxi** 🚕: pick up and drop off passengers as quickly as possible
+- **Frozen Lake** ❄️: navigate a slippery frozen lake and reach the goal without falling in the ice *(to be added soon)*
+- **Cartpole** ⚖️: keep a cartpole balanced upright *(to be added soon)*
+- **Mountain car** 🚂: use momentum to drive a car up a hill *(to be added soon)*
+- **Lunar Lander** 🚀: navigate a lander to its landing pad *(to be added soon)*
 
-### Dependencies:
-```
-pip install gym
-pip install numpy
-```
+### Requirements:
+All files were written in Python 3.7
+- [Gym](https://gym.openai.com/docs/)
+- Numpy
+- Tensorflow 2 (for Lunar Lander)
