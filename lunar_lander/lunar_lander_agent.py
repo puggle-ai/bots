@@ -95,7 +95,7 @@ class DQN_agent:
 		self.model.save(model_filepath)
 
 # variables for controlling training loop
-num_episodes = 600
+num_episodes = 50 # change
 max_steps = 1000
 total_rewards = []
 
@@ -142,11 +142,13 @@ for episode in range(10):
 	done = False
 
 	for step in range(max_steps):
-		action = agent.model.predict(state)
+		action = agent.choose_action(state)
 
 		env.render()
 
 		new_state, reward, done, info = env.step(action)
+
+		new_state = np.reshape(new_state, (1, 8))
 
 		state = new_state
 
